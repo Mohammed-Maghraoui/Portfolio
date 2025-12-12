@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mohammed Maghraoui, Web Developer & ALX Cybersecurity Student. Passionate about secure web applications.">
+    <meta name="keywords" content="web development, cybersecurity, ALX, portfolio, Mohammed Maghraoui">
+    <title>Mohammed Maghraoui - Web Developer & Cybersecurity Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For icons -->
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Mohammed Maghraoui</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#alx">ALX Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark/light mode"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <img src="./img/me.jpg" alt="Mohammed Maghraoui - Professional Photo" class="avatar" loading="lazy">
+            <h1 id="typing-effect"></h1>
+            <p class="subtitle">Web Developer & ALX Cybersecurity Student</p>
+            <p class="intro">Passionate about building secure web applications that protect users and data.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <!-- Animated Network Background -->
+        <div class="network-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Mohammed Maghraoui, a dedicated web developer with a growing expertise in cybersecurity. My journey combines the creativity of front-end and back-end development with the critical thinking required for ethical hacking and secure system design. Currently, I'm honing my skills through the ALX Cybersecurity Program, where I focus on network security, vulnerability assessments, and building resilient applications.</p>
+            <p>My passion lies in creating web applications that are not only functional and user-friendly but also fortified against cyber threats. I believe in proactive security measures to safeguard digital ecosystems.</p>
+            <div class="skills-overview">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Node.js, Express</li>
+                        <li>Responsive Design, APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <ul>
+                        <li>Network Security, Ethical Hacking</li>
+                        <li>OWASP Concepts, Cryptography</li>
+                        <li>Tools: Wireshark, Metasploit</li>
+                    </ul>
+                </div>
+            </div>
+            <p><strong>Education:</strong> ALX Cybersecurity Program (Current)</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="./img/eco.jfif" alt="Secure E-Commerce Site" loading="lazy">
+                    <h3>Secure E-Commerce Platform</h3>
+                    <p>A full-stack web app with integrated security features like input validation and HTTPS enforcement to prevent common vulnerabilities.</p>
+                    <p><strong>Tech Stack:</strong> React, Node.js, MongoDB, OWASP Best Practices</p>
+                    <a href="#" class="btn small">GitHub</a>
+                    <a href="#" class="btn small">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <img src="./img/cyb.jfif" alt="Vulnerability Scanner" loading="lazy">
+                    <h3>Simple Vulnerability Scanner</h3>
+                    <p>A Python-based tool for basic network scanning, inspired by ALX coursework, to identify open ports and potential risks.</p>
+                    <p><strong>Tech Stack:</strong> Python, Scapy, Linux</p>
+                    <a href="#" class="btn small">GitHub</a>
+                    <a href="#" class="btn small">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <img src="./img/pro-3.jfif" alt="Portfolio with Security" loading="lazy">
+                    <h3>Personal Portfolio (This Site)</h3>
+                    <p>A responsive portfolio with built-in security considerations, like secure form handling and minimal external dependencies.</p>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" class="btn small">GitHub</a>
+                    <a href="#" class="btn small">Live Demo</a>
+                </div>
+                <!-- Placeholder for more projects -->
+                <div class="project-card placeholder">
+                    <h3>Future Cybersecurity Project</h3>
+                    <p>Coming soon: An advanced penetration testing simulation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technologies Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
+                    <p>HTML5, CSS3, JavaScript, React, Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend</h3>
+                    <div class="skill-bar"><div class="fill" style="width: 80%;"></div></div>
+                    <p>Node.js, Express, Python</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Security</h3>
+                    <div class="skill-bar"><div class="fill" style="width: 75%;"></div></div>
+                    <p>OWASP, Network Security, Cryptography</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools</h3>
+                    <div class="skill-bar"><div class="fill" style="width: 85%;"></div></div>
+                    <p>Git, Linux, Wireshark, Metasploit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALX Experience Section -->
+    <section id="alx" class="alx">
+        <div class="container">
+            <h2>ALX Cybersecurity Experience</h2>
+            <p>The ALX Cybersecurity Program has been transformative, equipping me with hands-on skills in ethical hacking, secure coding, and threat analysis. Key learnings include vulnerability assessments, cryptography basics, and real-world simulations.</p>
+            <p><strong>Achievements:</strong> Completed modules on network security and penetration testing. Earned badges for ethical hacking challenges.</p>
+            <img src="assets/alx-badge.png" alt="ALX Cybersecurity Badge" class="badge" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Blog Placeholder -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog (Coming Soon)</h2>
+            <p>Future write-ups on cybersecurity best practices, web security tips, and ALX insights.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><strong>Location:</strong> Morocco</p>
+            <p><strong>Email:</strong> mohammed@example.com</p>
+            <p><strong>Phone:</strong> +212-XXX-XXXX (Optional)</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <form id="contact-form" action="#" method="post" novalidate>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-describedby="name-help name-error">
+                <small id="name-help">Enter your full name.</small>
+                <small id="name-error" class="error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-describedby="email-help email-error">
+                <small id="email-help">We'll use this to respond.</small>
+                <small id="email-error" class="error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required aria-describedby="message-help message-error"></textarea>
+                <small id="message-help">Share your thoughts or inquiries.</small>
+                <small id="message-error" class="error" aria-live="polite"></small>
+            </div>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p id="acte">&copy; 2023 Mohammed Maghraoui. Built with security in mind.</p>
+            <!--<button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"> </i></button> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
